@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<mux class="org.jpos.q2.iso.QMUX" logger="Q2" name="mymux">
+    <in>receive</in>
+    <out>send</out>
+    <ready>ready</ready>
+    <request-listener class="com.khtm.demo.jposdemoembed.CustomizeRequestListener" logger="Q2"
+                      realm="incoming-listener"/>
+</mux>
