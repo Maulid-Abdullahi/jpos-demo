@@ -15,5 +15,9 @@ public class JPOSConfiguration {
         return (QMUX) NameRegistrar.get("mux.mymux");
     }
 
+    @Bean
+    public ShaparakPackager getShaparakPackager(){
+        return new ShaparakPackager();
+    }
 
 }

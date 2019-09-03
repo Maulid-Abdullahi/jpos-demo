@@ -1,0 +1,18 @@
+<server class="org.jpos.q2.iso.QServer" logger="Q2"
+        name="xml-server-8000" realm="xml-server-8000">
+    <attr name="port" type="java.lang.Integer">9000</attr>
+    <channel class="org.jpos.iso.channel.XMLChannel"
+             packager="org.jpos.iso.packager.XMLPackager"
+             type="server"
+             logger="Q2"
+             realm="xml-server-8000">
+        <property name="timeout" value="7000"/>
+    </channel>
+    <!--class="org.jpos.iso.IncomingListener"-->
+    <request-listener class="com.khtm.demo.jposdemo03.jpos.CustomizeRequestListener"
+                      logger="Q2"
+                      realm="incoming-request-listener">
+        <property name="queue" value="TXNMGR"/>
+        <property name="ctx.DESTINATION" value="jPOS-AUTORESPONDER"/>
+    </request-listener>
+</server>

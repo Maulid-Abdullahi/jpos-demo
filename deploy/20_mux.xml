@@ -3,6 +3,7 @@
     <in>receive</in>
     <out>send</out>
     <ready>ready</ready>
-    <request-listener class="com.khtm.demo.jposdemoembed.CustomizeRequestListener" logger="Q2"
-                      realm="incoming-listener"/>
+    <!--<request-listener class="com.khtm.demo.jposdemoembed.CustomizeRequestListener" logger="Q2"
+                      realm="incoming-listener"/>-->
+
 </mux>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<qserver name="test-server" logger="Q2">
+    <attr name="port" type="java.lang.Integer">8000</attr>
+
+    <attr name="maxSessions" type="java.lang.Integer">100</attr>
+    <attr name="minSessions" type="java.lang.Integer">20</attr>
+
+    <!--
+    <property name="allow" value="192.168.1.1" />
+    <property name="allow" value="192.168.1.2" />
+    <property name="allow" value="10.0.0.10" />
+    <property name="deny" value="10.0.*" />
+    -->
+
+    <in>serverInput</in>
+    <out>serverOutput</out>
+    <ready>serverReady</ready>
+
+    <send-request>RR</send-request> <!-- round robin -->
+
+    <!-- Defining Channel -->
+    <channel class="org.jpos.iso.channel.NACChannel" logger="Q2"
+             packager="com.khtm.demo.jposdemoembed.ShaparakPackager">
+        <property name="timeout" value="5000"/> <!-- 5 second -->
+    </channel>
+
+    <!--<request-listener class="com.khtm.demo.jposdemoembed.CustomizeRequestListener"
+                      logger="Q2"
+                      realm="test-realm"/>-->
+
+</qserver>

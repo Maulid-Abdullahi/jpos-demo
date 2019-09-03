@@ -1,5 +1,5 @@
-<channel-adaptor 
-				name='jpos-channel' 
+<!--
+<channel-adaptor name='jpos-channel'
 				class="org.jpos.q2.iso.ChannelAdaptor"
 				logger="Q2">
 	<channel 	class="org.jpos.iso.channel.XMLChannel"
@@ -10,4 +10,4 @@
 	<in>jpos-send</in> 
 	<out>jpos-receive</out> 
 	<reconnect-delay>10000</reconnect-delay>
-</channel-adaptor>
+</channel-adaptor>-->
