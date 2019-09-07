@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<server class="org.jpos.q2.iso.QServer" logger="Q2"
+<server class="com.khtm.demo.jposdemo04.jpos.transaction.MyTransactionListener" logger="Q2"
         name="server-8005" realm="server-8005">
     <attr name="port" type="java.lang.Integer">8005</attr>
     <channel class="org.jpos.iso.channel.ASCIIChannel"
@@ -13,5 +13,9 @@
     <request-listener class="com.khtm.demo.jposdemo04.jpos.service.JPOSRequestListener"
                       logger="Q2"
                       realm="server-8005">
+        <property name="space" value="transient:default" />
+        <property name="queue" value="testQueue" />
+        <property name="spaceTimeout" value="60000" />
     </request-listener>
+
 </server>
