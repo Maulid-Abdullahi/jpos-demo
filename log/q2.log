@@ -12228,3 +12228,194 @@ q9ulRPEqH9NR79619lNKVUkE206dVlXo7xHmJS1QZy5v/GT66xBxyDVfTduPFXk=
 <log realm="xml-server-8000.server.session/127.0.0.1:64511" at="2019-09-03T17:50:53.056">
   <session-end/>
 </log>
+<?xml version="1.0" encoding="UTF-8"?>
+<logger class="org.jpos.util.DailyLogListener">
+<log realm="Q2.system" at="2019-09-04T15:11:54.172">
+  <info>
+    Q2 started, deployDir=D:\Projects\code-examples\jpos\jpos-demo-second\jpos-demo-03\deploy
+  </info>
+</log>
+<log realm="Q2.system" at="2019-09-04T15:11:54.585" lifespan="403ms">
+  <version>
+    jPOS 2.1.0 master/6145612 (2017-05-27 12:39:12 ART) 
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+jPOS Community Edition, licensed under GNU AGPL v3.0.
+This software is probably not suitable for commercial use.
+Please see http://jpos.org/license for details.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (Darwin)
+
+iQEcBAEBAgAGBQJMolHDAAoJEOQyeO71nYtFv74H/3OgehDGEy1VXp2U3/GcAobg
+HH2eZjPUz53r38ARPiU3pzm9LwDa3WZgJJaa/b9VrJwKvbPwe9+0kY3gScDE1skT
+ladHt+KHHmGQArEutkzHlpZa73RbroFEIa1qmN6MaDEHGoxZqDh0Sv2cpvOaVYGO
+St8ZaddLBPC17bSjAPWo9sWbvL7FgPFOHhnPmbeux8SLtnfWxXWsgo5hLBanKmO1
+1z+I/w/6DL6ZYZU6bAJUk+eyVVImJqw0x3IEElI07Nh9MC6BA4iJ77ejobj8HI2r
+q9ulRPEqH9NR79619lNKVUkE206dVlXo7xHmJS1QZy5v/GT66xBxyDVfTduPFXk=
+=oP+v
+-----END PGP SIGNATURE-----
+
+  </version>
+</log>
+<log realm="Q2.system" at="2019-09-04T15:11:54.595" lifespan="8ms">
+  <info>
+    deploy: D:\Projects\code-examples\jpos\jpos-demo-second\jpos-demo-03\deploy\10_channel_jpos.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2019-09-04T15:11:54.613" lifespan="18ms">
+  <info>
+    deploy: D:\Projects\code-examples\jpos\jpos-demo-second\jpos-demo-03\deploy\50_xml_server.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2019-09-04T15:11:54.619" lifespan="6ms">
+  <info>
+    deploy: D:\Projects\code-examples\jpos\jpos-demo-second\jpos-demo-03\deploy\99_sysmon.xml
+  </info>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="2019-09-04T15:11:54.631">
+  <info>
+    Starting SystemMonitor
+  </info>
+</log>
+<log realm="xml-server-8000.server" at="2019-09-04T15:11:54.631">
+  <iso-server>
+    listening on port 9000
+  </iso-server>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="2019-09-04T15:11:54.632" lifespan="1ms">
+  <info>
+               OS: Windows 10 (10.0)
+     process name: 30372@GF-35480
+             host: GF-35480/192.168.25.60
+              cwd: D:\Projects\code-examples\jpos\jpos-demo-second
+       free space: 831.1 GiB
+          version: 2.1.0 (6145612)
+         instance: 4a4686ba-da91-426a-80ea-6c85bc926b6d
+           uptime: 00:00:00.547 (-1.000000)
+       processors: 8
+           drift : 0
+    memory(t/u/f): 243/19/224
+         encoding: UTF-8
+         timezone: Asia/Tehran (Iran Time) +04:30
+    watch service: sun.nio.fs.WindowsWatchService
+             rule: TransitionRule[Gap +03:30 to +04:30, MARCH 21 at 00:00 WALL, standard offset +03:30]
+             rule: TransitionRule[Overlap +04:30 to +03:30, SEPTEMBER 21 at 00:00 WALL, standard offset +03:30]
+       transition: 2019-09-21T19:30:00Z (2019-09-21T23:00+03:30[Asia/Tehran])
+            clock: 1567593714 2019-09-04T10:41:54.632Z
+     thread count: 23
+     peak threads: 23
+     user threads: 13
+            Thread[Reference Handler,10,system]
+            Thread[Finalizer,8,system]
+            Thread[Signal Dispatcher,9,system]
+            Thread[Attach Listener,5,system]
+            Thread[RMI TCP Accept-0,5,system]
+            Thread[RMI TCP Accept-65049,5,system]
+            Thread[RMI TCP Accept-0,5,system]
+            Thread[RMI Scheduler(0),5,system]
+            Thread[main,5,main]
+            Thread[Monitor Ctrl-Break,5,main]
+            Thread[pool-1-thread-1,5,main]
+            Thread[Q2-4a4686ba-da91-426a-80ea-6c85bc926b6d,5,main]
+            Thread[Thread-2,5,main]
+            Thread[Timer-0,5,main]
+            Thread[background-preinit,5,main]
+            Thread[channel-sender-jpos-send,5,main]
+            Thread[channel-receiver-jpos-receive,5,main]
+            Thread[Thread-7,5,main]
+            Thread[SystemMonitor,5,main]
+            Thread[Thread-8,5,main]
+            Thread[xml-server-8000-ThreadPool.PooledThread-0,5,xml-server-8000-ThreadPool-0]
+            Thread[RMI TCP Connection(1)-127.0.0.1,5,RMI Runtime]
+            Thread[RMI TCP Connection(2)-127.0.0.1,5,RMI Runtime]
+    name-registrar:
+      tspace:default: org.jpos.space.TSpace
+         key-count: 0
+            gcinfo: 0,0
+      Q2: org.jpos.q2.Q2
+      jpos-channel: org.jpos.q2.iso.ChannelAdaptor
+        tx=0, rx=0, connects=0, last=0
+      channel.jpos-channel: org.jpos.iso.channel.XMLChannel
+      logger.Q2: org.jpos.util.Logger
+      server.xml-server-8000: org.jpos.iso.ISOServer
+        connected=0, rx=0, tx=0, last=0
+      xml-server-8000: org.jpos.q2.iso.QServer
+  </info>
+</log>
+<log realm="xml-server-8000.server.session/127.0.0.1:65060" at="2019-09-04T15:11:55.130">
+  <session-start/>
+</log>
+<log realm="xml-server-8000.server.session/127.0.0.1:65080" at="2019-09-04T15:11:58.226">
+  <session-start/>
+</log>
+<log realm="xml-server-8000/127.0.0.1:65080" at="2019-09-04T15:11:58.228" lifespan="2ms">
+  <receive>
+    <isomsg direction="incoming">
+      <!-- org.jpos.iso.packager.XMLPackager -->
+      <field id="0" value="0200"/>
+      <field id="2" value="5421287475388412"/>
+      <field id="3" value="000000"/>
+      <field id="4" value="400.0"/>
+      <field id="7" value="0716070815"/>
+      <field id="11" value="844515"/>
+    </isomsg>
+  </receive>
+</log>
+<log realm="xml-server-8000/127.0.0.1:65080" at="2019-09-04T15:11:58.229">
+  <send>
+    <isomsg>
+      <!-- org.jpos.iso.packager.XMLPackager -->
+      <field id="0" value="0200"/>
+      <field id="2" value="5421287475388412"/>
+      <field id="3" value="000000"/>
+      <field id="4" value="400.0"/>
+      <field id="7" value="0716070815"/>
+      <field id="11" value="844515"/>
+    </isomsg>
+  </send>
+</log>
+<log realm="xml-server-8000/127.0.0.1:65060" at="2019-09-04T15:12:02.131" lifespan="7001ms">
+  <receive>
+    <io-timeout/>
+  </receive>
+</log>
+<log realm="org.jpos.q2.iso.ChannelAdaptor" at="2019-09-04T15:12:02.132">
+  <warn>
+    channel-receiver-jpos-receive
+    Read timeout / EOF - reconnecting
+  </warn>
+</log>
+<log realm="xml-server-8000.server.session/127.0.0.1:65060" at="2019-09-04T15:12:02.135">
+  <session-end/>
+</log>
+<log realm="xml-server-8000.server.session/127.0.0.1:65092" at="2019-09-04T15:12:03.136">
+  <session-start/>
+</log>
+<log realm="xml-server-8000/127.0.0.1:65080" at="2019-09-04T15:12:05.230" lifespan="7001ms">
+  <receive>
+    <io-timeout/>
+  </receive>
+</log>
+<log realm="xml-server-8000.server.session/127.0.0.1:65080" at="2019-09-04T15:12:05.230">
+  <session-end/>
+</log>
+<log realm="xml-server-8000/127.0.0.1:65092" at="2019-09-04T15:12:10.138" lifespan="7001ms">
+  <receive>
+    <io-timeout/>
+  </receive>
+</log>
+<log realm="org.jpos.q2.iso.ChannelAdaptor" at="2019-09-04T15:12:10.139">
+  <warn>
+    channel-receiver-jpos-receive
+    Read timeout / EOF - reconnecting
+  </warn>
+</log>
+<log realm="xml-server-8000.server.session/127.0.0.1:65092" at="2019-09-04T15:12:10.139">
+  <session-end/>
+</log>
+<log realm="xml-server-8000.server.session/127.0.0.1:65109" at="2019-09-04T15:12:11.142">
+  <session-start/>
+</log>
